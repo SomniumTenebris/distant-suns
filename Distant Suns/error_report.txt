@@ -1,9 +1,0 @@
-!! Traceback (most recent call last):
-!!   File "c:\Python27\Programs\Family Folders\matthews folder\Masendor-master\Masendor-master\main.py", line 11, in <module>
-    runmenu = start.MainMenu(main_dir)
-!!   File "c:\Python27\Programs\Family Folders\matthews folder\Masendor-master\Masendor-master\gamescript\start.py", line 173, in __init__
-    self.loading = load_image(self.main_dir, self.screen_scale, "loading.png", "ui\\mainmenu_ui")
-!!   File "c:\Python27\Programs\Family Folders\matthews folder\Masendor-master\Masendor-master\gamescript\common\utility.py", line 29, in load_image
-    surface = pygame.transform.scale(surface, (surface.get_width() * screen_scale[0], surface.get_height() * screen_scale[1]))
-!! TypeError: integer argument expected, got float
-
